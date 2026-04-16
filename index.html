@@ -87,7 +87,7 @@
   </div>
 
   <footer>
-    sudo fsarchiver restfs despoke_backup.fsa id=0,dest=/dev/sda1
+    sudo tar --exclude=/proc --exclude=/sys --exclude=/dev --exclude=/run --exclude=/tmp --exclude=/mnt --exclude=/media --exclude=/lost+found -cvpzf despoke-system.tar.gz /
     <a href="https://t.me/+Vw9Q63MF0FsxODdi" target="_blank">Напиши мне</a>
   </footer>
 
